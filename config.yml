@@ -1,0 +1,14 @@
+
+targetSites :
+  - url : http://srad.jp/ #監視対象のURL
+    word : "word1"        #ワードセットの名前
+    mail : "mail1"        #メールセットの名前
+
+
+#監視対象に含まれているかを監視するキーワード。
+wordSets :
+  - word1 : exsample1|hoge
+  - all : "all" #allを指定すると更新内容に何があろうが通知する
+
+
+cronTime : 300 #Sec
