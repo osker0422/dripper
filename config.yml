@@ -6,9 +6,9 @@ targetSites :
 
 
 #監視対象に含まれているかを監視するキーワード。
-wordSets :
-  - word1 : exsample1|hoge
+wordsets :
+  - word1 : プログラム|hoge|ストーリー
   - all : "all" #allを指定すると更新内容に何があろうが通知する
 
 
-cronTime : 300 #Sec
+clockTime : 3 #Sec

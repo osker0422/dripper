@@ -100,16 +100,80 @@ end
 
 #テキストの中に渡された文字列が含まれるかを検査する
 #含まれていた場合Trueを返す
-def serchWordOnText()
+def serchWordOnText(filepath,wordset)
+  p wordset
+  findKeywordArr = Array.new
 
+  File.foreach(filepath) do |line|
+    if line =~ /#{wordset}/i
+      findKeywordArr.push(line)
+    end
+  end
+  #p findKeywordArr
+  return findKeywordArr
+end
+
+
+def chkUpdateJob()
+    config = YAML.load_file('config.yml')
+    sites = config["targetSites"]
+    wordsets = config["wordsets"]
+    p wordsets
+    mailBody = File.open("tmp/mailbody.txt","a")
+
+    sites.each do |site|
+      newHtmlFilePath = getHtml(site["url"])
+      wordset = String.new
+      wordsets.each{ |word|
+        key =  word.keys
+        if key[0] == site["word"]
+          wordset = word.values
+          wordset = wordset[0]
+        elsif site["word"] == "all"
+          wordset = "all"
+        end
+      }
+      orgHtmlFilePath = getOrgHtmlFile(site["url"])
+      changeLineFeed(newHtmlFilePath)
+      changeLineFeed(orgHtmlFilePath)
+
+      #Diffを取る
+      diff = diffOutputText(orgHtmlFilePath,newHtmlFilePath)
+
+      #diffの中から追加されたものだけを持ってくる
+      addition = extractAdd(diff)
+
+      additionfile =  File.open("./tmp/addition.html", "w")
+      additionfile.puts(addition)
+      additionfile.close
+
+
+      if wordset != "all"
+
+        result = serchWordOnText("./tmp/addition.html",wordset)
+        result.each do |line|
+          mailBody.puts line
+        end
+
+      else
+
+        additionfile =  File.open("./tmp/addition.html", "r")
+        additionfile.each do |line|
+          mailBody.puts line
+        end
+      end
+    end
 
 end
 
+=begin
 #更新を持ってくる
-newHtmlFilePath = getHtml("http://srad.jp/")
-#newHtmlFilePath = "tmp/スラド -- アレゲなニュースと雑談サイト.html"
+#newHtmlFilePath = getHtml("http://srad.jp/")
+newHtmlFilePath = "tmp/スラド -- アレゲなニュースと雑談サイト.html"
 #前のを持ってくる
-orgHtmlFilePath = getOrgHtmlFile("http://srad.jp/")
+#orgHtmlFilePath = getOrgHtmlFile("http://srad.jp/")
+
+orgHtmlFilePath = "tmp/org.html"
 
 changeLineFeed(newHtmlFilePath)
 changeLineFeed(orgHtmlFilePath)
@@ -120,7 +184,17 @@ diff = diffOutputText(orgHtmlFilePath,newHtmlFilePath)
 #diffの中から追加されたものだけを持ってくる
 addition = extractAdd(diff)
 
-p addition
+#p addition
 
-file =  File.open("./tmp/addition.html", "w")
-file.puts(addition)
+additionfile =  File.open("./tmp/addition.html", "w")
+additionfile.puts(addition)
+additionfile.close
+
+wordset = "プログラム|hogehoge|総投票数："
+result = serchWordOnText("./tmp/addition.html",wordset)
+p result
+
+=end
+
+
+chkUpdateJob()

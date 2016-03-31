@@ -7,5 +7,8 @@ gem "selenium-webdriver"
 gem "nokogiri"
 
 gem "sequel"
-
+gem "sqlite3"
 gem "diff-lcs"
+gem "diffy"
+
+gem "clockwork"
