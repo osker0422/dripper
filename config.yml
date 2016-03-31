@@ -1,6 +1,6 @@
 
 targetSites :
-  - url : http://hogehoge.jp/ #監視対象のURL
+  - url : http://srad.jp/ #監視対象のURL
     word : "word1"        #ワードセットの名前
     mail : "mail1"        #メールセットの名前
 
@@ -11,4 +11,4 @@ wordsets :
   - all : "all" #allを指定すると更新内容に何があろうが通知する
 
 
-clockTime : 3 #Sec
+clockTime : 20 #Sec

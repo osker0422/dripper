@@ -165,36 +165,3 @@ def chkUpdateJob()
     end
 
 end
-
-=begin
-#更新を持ってくる
-#newHtmlFilePath = getHtml("http://srad.jp/")
-newHtmlFilePath = "tmp/スラド -- アレゲなニュースと雑談サイト.html"
-#前のを持ってくる
-#orgHtmlFilePath = getOrgHtmlFile("http://srad.jp/")
-
-orgHtmlFilePath = "tmp/org.html"
-
-changeLineFeed(newHtmlFilePath)
-changeLineFeed(orgHtmlFilePath)
-
-#Diffを取る
-diff = diffOutputText(orgHtmlFilePath,newHtmlFilePath)
-
-#diffの中から追加されたものだけを持ってくる
-addition = extractAdd(diff)
-
-#p addition
-
-additionfile =  File.open("./tmp/addition.html", "w")
-additionfile.puts(addition)
-additionfile.close
-
-wordset = "プログラム|hogehoge|総投票数："
-result = serchWordOnText("./tmp/addition.html",wordset)
-p result
-
-=end
-
-
-chkUpdateJob()

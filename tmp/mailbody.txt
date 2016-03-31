@@ -1,3 +1,52 @@
     <div class="details" id="details-12736108">ストーリー by <a href="http://hylom.net/">hylom</a>
     <div class="details" id="details-12736107">ストーリー by <a href="http://hylom.net/">hylom</a>
     <div class="details" id="details-12736106">ストーリー by <a href="http://hylom.net/">hylom</a>
+	<title>HogeHoge | HogeHogeなブログを始めよう</title>
+	<link rel="pingback" href="http://hogehoge.jp/xmlrpc.php">
+	<script src="http://hogehoge.jp/wp-content/themes/twentythirteen/js/html5.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="HogeHoge » フィード" href="http://hogehoge.jp/?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="HogeHoge » コメントフィード" href="http://hogehoge.jp/?feed=comments-rss2">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/hogehoge.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+<link rel="stylesheet" id="genericons-css" href="http://hogehoge.jp/wp-content/themes/twentythirteen/fonts/genericons.css?ver=2.09" type="text/css" media="all">
+<link rel="stylesheet" id="twentythirteen-style-css" href="http://hogehoge.jp/wp-content/themes/twentythirteen/style.css?ver=2013-07-18" type="text/css" media="all">
+<link rel='stylesheet' id='twentythirteen-ie-css'  href='http://hogehoge.jp/wp-content/themes/twentythirteen/css/ie.css?ver=2013-07-18' type='text/css' media='all' />
+<script type="text/javascript" src="http://hogehoge.jp/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
+<script type="text/javascript" src="http://hogehoge.jp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+<link rel="https://api.w.org/" href="http://hogehoge.jp/?rest_route=/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://hogehoge.jp/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://hogehoge.jp/wp-includes/wlwmanifest.xml"> 
+			background: url(http://hogehoge.jp/wp-content/themes/twentythirteen/images/headers/circle.png) no-repeat scroll top;
+			<a class="home-link" href="http://hogehoge.jp/" title="HogeHoge" rel="home">
+				<h1 class="site-title">HogeHoge</h1>
+				<h2 class="site-description">HogeHogeなブログを始めよう</h2>
+<li class="page_item page-item-25"><a href="http://hogehoge.jp/?page_id=25">お問い合わせ</a></li>
+<li class="page_item page-item-2"><a href="http://hogehoge.jp/?page_id=2">利用条件</a></li>
+					<form role="search" method="get" class="search-form" action="http://hogehoge.jp/">
+			<a href="http://hogehoge.jp/?p=36" rel="bookmark">サイトを大幅に整理(We have a large number delete the site.)</a>
+			<span class="date"><a href="http://hogehoge.jp/?p=36" title="サイトを大幅に整理(We have a large number delete the site.) へのパーマリンク" rel="bookmark"><time class="entry-date" datetime="2014-02-20T14:09:32+00:00">2014年2月20日</time></a></span><span class="categories-links"><a href="http://hogehoge.jp/?cat=3" rel="category">アナウンス</a></span><span class="author vcard"><a class="url fn n" href="http://hogehoge.jp/?author=1" title="admin の投稿をすべて表示" rel="author">admin</a></span>					</div>
+				<a href="http://hogehoge.jp/?p=36#respond"><span class="leave-reply">コメントをどうぞ</span></a>			</div>
+			<a href="http://hogehoge.jp/?p=31" rel="bookmark">spamユーザを整理開始　(We will delete a spam users)</a>
+			<span class="date"><a href="http://hogehoge.jp/?p=31" title="spamユーザを整理開始　(We will delete a spam users) へのパーマリンク" rel="bookmark"><time class="entry-date" datetime="2013-12-02T08:23:35+00:00">2013年12月2日</time></a></span><span class="categories-links"><a href="http://hogehoge.jp/?cat=3" rel="category">アナウンス</a></span><span class="author vcard"><a class="url fn n" href="http://hogehoge.jp/?author=1" title="admin の投稿をすべて表示" rel="author">admin</a></span>					</div>
+				<a href="http://hogehoge.jp/?p=31#respond"><span class="leave-reply">コメントをどうぞ</span></a>			</div>
+			<a href="http://hogehoge.jp/?p=27" rel="bookmark">いくつかのブログを削除しました (removed some blog)</a>
+			<span class="date"><a href="http://hogehoge.jp/?p=27" title="いくつかのブログを削除しました (removed some blog) へのパーマリンク" rel="bookmark"><time class="entry-date" datetime="2013-10-29T11:37:01+00:00">2013年10月29日</time></a></span><span class="categories-links"><a href="http://hogehoge.jp/?cat=3" rel="category">アナウンス</a></span><span class="author vcard"><a class="url fn n" href="http://hogehoge.jp/?author=1" title="admin の投稿をすべて表示" rel="author">admin</a></span>					</div>
+				<a href="http://hogehoge.jp/?p=27#respond"><span class="leave-reply">コメントをどうぞ</span></a>			</div>
+			<a href="http://hogehoge.jp/?p=20" rel="bookmark">各種お問い合わせ</a>
+			<span class="date"><a href="http://hogehoge.jp/?p=20" title="各種お問い合わせ へのパーマリンク" rel="bookmark"><time class="entry-date" datetime="2013-09-24T13:35:11+00:00">2013年9月24日</time></a></span><span class="categories-links"><a href="http://hogehoge.jp/?cat=3" rel="category">アナウンス</a></span><span class="author vcard"><a class="url fn n" href="http://hogehoge.jp/?author=1" title="admin の投稿をすべて表示" rel="author">admin</a></span>					</div>
+				<a href="http://hogehoge.jp/?p=20#respond"><span class="leave-reply">コメントをどうぞ</span></a>			</div>
+			<a href="http://hogehoge.jp/?p=15" rel="bookmark">いくつかのブログを整理・削除しました</a>
+			<span class="date"><a href="http://hogehoge.jp/?p=15" title="いくつかのブログを整理・削除しました へのパーマリンク" rel="bookmark"><time class="entry-date" datetime="2013-08-20T08:37:49+00:00">2013年8月20日</time></a></span><span class="categories-links"><a href="http://hogehoge.jp/?cat=3" rel="category">アナウンス</a></span><span class="author vcard"><a class="url fn n" href="http://hogehoge.jp/?author=1" title="admin の投稿をすべて表示" rel="author">admin</a></span>					</div>
+				<a href="http://hogehoge.jp/?p=15#respond"><span class="leave-reply">コメントをどうぞ</span></a>			</div>
+			<a href="http://hogehoge.jp/?p=1" rel="bookmark">HogeHogeブログを始めよう</a>
+			<span class="date"><a href="http://hogehoge.jp/?p=1" title="HogeHogeブログを始めよう へのパーマリンク" rel="bookmark"><time class="entry-date" datetime="2011-11-28T23:36:54+00:00">2011年11月28日</time></a></span><span class="categories-links"><a href="http://hogehoge.jp/?cat=1" rel="category">未分類</a></span><span class="author vcard"><a class="url fn n" href="http://hogehoge.jp/?author=1" title="admin の投稿をすべて表示" rel="author">admin</a></span>					</div>
+			<p>HogeHogeブログへようこそ。</p>
+<p>ブログは、http://好きな名前.hogehoge.jp/ というURLが作れます。</p>
+				<a href="http://hogehoge.jp/?p=1#respond"><span class="leave-reply">コメントをどうぞ</span></a>			</div>
+	<script type="text/javascript" src="http://hogehoge.jp/wp-content/themes/twentythirteen/js/functions.js?ver=2013-07-18"></script>
+<script type="text/javascript" src="http://hogehoge.jp/wp-includes/js/wp-embed.min.js?ver=4.4.2"></script>
+    <div class="details" id="details-12736108">ストーリー by <a href="http://hylom.net/">hylom</a>
+    <div class="details" id="details-12736107">ストーリー by <a href="http://hylom.net/">hylom</a>
+    <div class="details" id="details-12736106">ストーリー by <a href="http://hylom.net/">hylom</a>
+    <div class="details" id="details-12736108">ストーリー by <a href="http://hylom.net/">hylom</a>
+    <div class="details" id="details-12736107">ストーリー by <a href="http://hylom.net/">hylom</a>
+    <div class="details" id="details-12736106">ストーリー by <a href="http://hylom.net/">hylom</a>

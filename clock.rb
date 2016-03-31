@@ -1,12 +1,14 @@
 require 'clockwork'
 require 'yaml'
+require_relative './chkUpdate.rb'
+
 include Clockwork
 
 handler do |job|
   case job
   when 'clock.job'
     # 10 秒毎の処理
-    `touch hoge`
+    chkUpdateJob()
   end
 end
 
